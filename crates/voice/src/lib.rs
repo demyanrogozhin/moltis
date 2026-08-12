@@ -18,6 +18,7 @@ pub use {
     stt::{
         DeepgramStt, ElevenLabsStt, GoogleStt, GroqStt, MistralStt, SherpaOnnxStt, SttProvider,
         TranscribeRequest, Transcript, VoxtralLocalStt, WhisperCliStt, WhisperLocalStt, WhisperStt,
+        cli_utils::find_binary,
     },
     tts::{
         AudioFormat, AudioOutput, CoquiTts, ElevenLabsTts, GoogleTts, OpenAiTts, PiperTts,

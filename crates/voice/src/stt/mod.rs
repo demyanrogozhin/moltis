@@ -1,6 +1,6 @@
 //! Speech-to-Text provider abstraction and implementations.
 
-mod cli_utils;
+pub mod cli_utils;
 mod deepgram;
 mod elevenlabs;
 mod google;
